@@ -37,6 +37,7 @@
 
 .navbar {
 	height: 50px;
+	min-width: 504px;
 	border-bottom: 1px solid gray;
 	background: rgb(255,255,255); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 82%, rgba(225,225,225,1) 100%, rgba(246,246,246,1) 100%); /* FF3.6+ */
@@ -75,11 +76,27 @@
 /*BODY*/ /*BODY*/ /*BODY*/ /*BODY*/ /*BODY*/
 
 .about-body {
-	width: 80%;
-	height: 100px;
-	text-align: center;
+	width: 85%;
+	height: 600px;
+	margin: 0px auto;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
+}
+
+.body-banner {
+	height: 100px;
+	background-color: #4D4D4D;
+	h1 {
+		margin: 0px;
+		color: white;
+		padding-top: 32px;
+		padding-left: 25px;
+	}
+}
+
+#headshot {
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
 /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ 
@@ -87,5 +104,5 @@
 .footer {
 	border-top: 1px solid gray;
 	height: 60px;
-	background-color: gray;
+	background-color: #4D4D4D;
 }
