@@ -29,7 +29,8 @@
 
 .logo {
 	img {
-		width: 15%;
+		/*width: 15%;*/
+		max-width: 15%;
 	}
 }
 
@@ -57,12 +58,13 @@
 	margin-bottom: 0px;
 	li {
 		list-style-type: none;
-		margin-left: 60px;
+		margin-left: 52px;
 		display: inline-block;
 		font-family: 'Open Sans';
-		font-size: 100%;
+		font-size: 110%;
 		color: #4D4D4D;
-		padding-right: 49px;
+		padding-right: 52px;
+		border-right: 1px solid gray;
 		a {
 			color: #4D4D4D; 
 			text-decoration: none;
@@ -75,8 +77,13 @@
 
 /*BODY*/ /*BODY*/ /*BODY*/ /*BODY*/ /*BODY*/
 
+p {
+	margin: 25px;
+	float: right;
+}
+
 .about-body {
-	width: 85%;
+	width: 90%;
 	height: 600px;
 	margin: 0px auto;
 	border-left: 1px solid gray;
@@ -94,10 +101,17 @@
 	}
 }
 
+.wcwdfy {
+	border-bottom: 1px solid gray;
+	height: 260px;
+}
+
 #headshot {
 	margin-left: 20px;
 	margin-top: 20px;
+	float: left;
 }
+
 
 /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ 
 
